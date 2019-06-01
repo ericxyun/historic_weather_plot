@@ -1,4 +1,3 @@
-#%%
 import os
 import sys
 from PIL import Image
@@ -19,9 +18,6 @@ for image in images:
     img.paste(image, (0, y_offset))
     y_offset += image.size[1]
 
-img.save('final.jpg')
+img.save('final_images/final.jpg')
 
 
-
-#%%
-google home show images
